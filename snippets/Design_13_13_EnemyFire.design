@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-custom comment="false" x="3" y="8">
+            <group eventID="1" id="-1">
+                <repeatu comment="false" x="14" y="33">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="25" y="66">
+                            <group eventID="1" id="-1">
+                                <periodic comment="false" x="36" y="99">
+                                    <group eventID="1" id="-1"/>
+                                    <int id="0" val="3"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </periodic>
+                            </group>
+                            <isonscreen comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </isonscreen>
+                        </if>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </collision-bottom>
+                </repeatu>
+            </group>
+            <int id="0" val="AlienMoves"/>
+        </event-custom>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
