@@ -7,7 +7,10 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="21" name="Start 1" order="0" sx="2.2" sy="2.5" x="54" y="33" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="23" name="Quit 2" order="1" sx="2.2" sy="2.6666667" x="54" y="382" z="0"/>
+    </actors>
     <snippets/>
     <terrain/>
     <atlases members="" retainAtlases="true"/>
