@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <receive-message comment="false" x="15" y="15">
-            <group eventID="-1" id="-1">
-                <if comment="false" x="26" y="45">
-                    <group eventID="-1" id="-1">
-                        <if comment="false" x="37" y="70">
-                            <group eventID="-1" id="-1">
-                                <set-val-7-8 comment="false" x="48" y="108">
+        <receive-message comment="false" x="8" y="17">
+            <group eventID="1" id="-1">
+                <if comment="false" x="19" y="47">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="30" y="72">
+                            <group eventID="1" id="-1">
+                                <set-val-7-8 comment="false" x="41" y="110">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-7-8>
-                                <set-val-7-10 comment="false" x="48" y="133">
+                                <set-val-7-10 comment="false" x="41" y="135">
                                     <true comment="false" id="0" x="0" y="0"/>
                                 </set-val-7-10>
-                                <create-actor3 comment="false" x="48" y="158">
+                                <create-actor3 comment="false" x="41" y="160">
                                     <actortype eid="var" id="0" vid="4"/>
                                     <plus comment="false" id="1" x="0" y="0">
                                         <get-xy comment="false" id="0" x="0" y="0">
@@ -31,10 +31,10 @@
                                     </plus>
                                     <int id="3" val="2"/>
                                 </create-actor3>
-                                <set-val-7-9 comment="false" x="48" y="203">
+                                <set-val-7-9 comment="false" x="41" y="205">
                                     <ACTOR eid="lastcreated" id="0"/>
                                 </set-val-7-9>
-                                <set-xy comment="false" x="48" y="230">
+                                <set-xy comment="false" x="41" y="232">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="0"/>
                                     <minus comment="false" id="2" x="0" y="0">
@@ -51,7 +51,7 @@
                                         </div>
                                     </minus>
                                 </set-xy>
-                                <set-xy comment="false" x="48" y="280">
+                                <set-xy comment="false" x="41" y="282">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="1"/>
                                     <minus comment="false" id="2" x="0" y="0">
@@ -68,7 +68,7 @@
                                         </div>
                                     </minus>
                                 </set-xy>
-                                <setangle comment="false" x="48" y="330">
+                                <setangle comment="false" x="41" y="332">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <minus comment="false" id="1" x="0" y="0">
                                         <plus comment="false" id="0" x="0" y="0">
@@ -80,7 +80,7 @@
                                         <get-val-7-6 comment="false" id="1" x="0" y="0"/>
                                     </minus>
                                 </setangle>
-                                <setvel comment="false" x="48" y="380">
+                                <setvel comment="false" x="41" y="382">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <minus comment="false" id="1" x="0" y="0">
                                         <plus comment="false" id="0" x="0" y="0">
@@ -93,7 +93,7 @@
                                     </minus>
                                     <get-val-7-2 comment="false" id="2" x="0" y="0"/>
                                 </setvel>
-                                <play-sound4 comment="false" x="48" y="430">
+                                <play-sound4 comment="false" x="41" y="432">
                                     <int id="0" val="0"/>
                                     <sound eid="var" id="1" vid="7"/>
                                 </play-sound4>
@@ -107,15 +107,15 @@
                     </group>
                     <get-val-7-10 comment="false" id="0" x="0" y="0"/>
                 </if>
-                <else comment="false" x="26" y="481">
-                    <group eventID="-1" id="-1">
-                        <set-val-7-8 comment="false" x="37" y="501">
+                <else comment="false" x="19" y="483">
+                    <group eventID="1" id="-1">
+                        <set-val-7-8 comment="false" x="30" y="503">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-7-8>
-                        <set-val-7-10 comment="false" x="37" y="526">
+                        <set-val-7-10 comment="false" x="30" y="528">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-7-10>
-                        <create-actor3 comment="false" x="37" y="551">
+                        <create-actor3 comment="false" x="30" y="553">
                             <actortype eid="var" id="0" vid="4"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -127,10 +127,10 @@
                             </get-xy>
                             <int id="3" val="1"/>
                         </create-actor3>
-                        <set-val-7-9 comment="false" x="37" y="591">
+                        <set-val-7-9 comment="false" x="30" y="593">
                             <ACTOR eid="lastcreated" id="0"/>
                         </set-val-7-9>
-                        <set-xy comment="false" x="37" y="618">
+                        <set-xy comment="false" x="30" y="620">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <minus comment="false" id="2" x="0" y="0">
@@ -147,7 +147,7 @@
                                 </div>
                             </minus>
                         </set-xy>
-                        <set-xy comment="false" x="37" y="668">
+                        <set-xy comment="false" x="30" y="670">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <minus comment="false" id="2" x="0" y="0">
@@ -164,7 +164,7 @@
                                 </div>
                             </minus>
                         </set-xy>
-                        <setangle comment="false" x="37" y="718">
+                        <setangle comment="false" x="30" y="720">
                             <ACTOR eid="lastcreated" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <plus comment="false" id="0" x="0" y="0">
@@ -176,7 +176,7 @@
                                 <get-val-7-6 comment="false" id="1" x="0" y="0"/>
                             </minus>
                         </setangle>
-                        <setvel comment="false" x="37" y="768">
+                        <setvel comment="false" x="30" y="770">
                             <ACTOR eid="lastcreated" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <plus comment="false" id="0" x="0" y="0">
@@ -189,7 +189,7 @@
                             </minus>
                             <get-val-7-2 comment="false" id="2" x="0" y="0"/>
                         </setvel>
-                        <play-sound4 comment="false" x="37" y="818">
+                        <play-sound4 comment="false" x="30" y="820">
                             <int id="0" val="0"/>
                             <sound eid="var" id="1" vid="7"/>
                         </play-sound4>
