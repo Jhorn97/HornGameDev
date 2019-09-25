@@ -106,7 +106,6 @@
         <actor default="" defaultValue="" desc="" dropdown="" fullname="enemybullet" hidden="false" id="6" name="_enemybullet" order="6"/>
         <blocks/>
         <events>
-            <event displayName="Custom Event" enabled="false" id="1" name="event-custom" order="2" repeats="true"/>
             <event displayName="Custom Event" enabled="true" id="2" name="event-custom" order="3" repeats="true"/>
             <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
         </events>
